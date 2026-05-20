@@ -1,0 +1,28 @@
+# Prashiksha - Python Dependencies
+# Install: pip install -r requirements.txt
+
+# Core framework
+streamlit>=1.35.0
+
+# AI / LLM
+google-genai>=0.8.0
+
+# Database
+sqlalchemy>=2.0.0
+pymysql>=1.1.0
+cryptography>=42.0.0  # required by pymysql
+
+# Translation (free, no API key)
+deep-translator>=1.11.4
+
+# Text-to-Speech options (install at least one)
+gTTS>=2.5.0          # online TTS, supports Hindi/Marathi/etc.
+# pyttsx3>=2.90      # offline TTS (optional backup)
+# playsound==1.2.2   # to play audio locally (optional)
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Optional: for better Streamlit experience
+watchdog>=4.0.0
